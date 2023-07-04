@@ -4,6 +4,7 @@
     Closures
         - It is an inner function that has access to the other function's variables
         - It’s a combination of a function and the lexical environment in which it was declared
+        - allows a function to access variables from enclosing scope or outer scope environment even after it leaves the scope in which it was declared
 */
 function a () {
     let grandpa = 'Kassem'
