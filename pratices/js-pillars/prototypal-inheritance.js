@@ -1,3 +1,11 @@
+/* 
+    Prototype
+    - Are the mechanism by which JavaScript objects inherits features from one another
+    - Every object has a prototype
+    - Prototype chain ends with object.prototype
+    - Only functions have the prototype property
+    - In JavaScript arrays and functions are just objects
+*/
 let dragon = {
     name: 'Tanya',
     fire: true,
@@ -51,5 +59,3 @@ let socrates = Object.create(human)
 socrates.age = 45
 // console.log(socrates.mortal); true
 // console.log(human.isPrototypeOf(socrates)); true
-
-// Only functions have the prototype property
