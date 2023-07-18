@@ -15,3 +15,28 @@ const person = {
         console.log('hi' + this.name);
     }
 }
+
+//explicit binding
+const person2 = {
+    name: 'Amjad',
+    age: 24,
+    hi: function () {
+        console.log('hi' + this.setTimeout)
+    }.bind(window)
+}
+
+person2.hi();
+
+// arrow function
+const person3 = {
+    name: 'Ahmad',
+    age: 27,
+    hi: function () {
+        var inner = () => {
+            console.log('hi' + this.name)
+        }
+        return inner();
+    }
+}
+
+person3.hi();
