@@ -13,13 +13,19 @@ class Elf {
 
 class Character {
   // base class (super class)
+  // # -> private
+  #age = 28;
   constructor(name, weapon) {
     this.name = name;
     this.weapon = weapon;
   }
 
-  attack() {
+  _attack() {
     return "attack with " + this.weapon;
+  }
+
+  attack() {
+    return "attack with " + this.#age;
   }
 }
 
@@ -47,7 +53,7 @@ class Ogre extends Character {
   }
 }
 
-console.log(dolby.makeFort()); // dolby.makeFort is not a function
+// console.log(dolby.makeFort()); // dolby.makeFort is not a function
 // new keyword to create instances of a class, instance is creating a version of a class
 // const fiona = new Elf('Fiona', 'ninja stars');
 const dolby = new Elf("Dolby", "cloth", "house");
@@ -59,10 +65,13 @@ const dolby = new Elf("Dolby", "cloth", "house");
 // console.log(fiona.__proto__);
 // console.log(fiona === ogre);
 
-console.log(dolby.attack()); // attack with cloth
+// console.log(dolby.attack()); // attack with cloth
 const shrek = new Ogre("shrek", "club", "green");
-console.log(shrek); // Ogre { name: 'shrek', weapon: 'club', color: 'green' }
-shrek.makeFort(); // strongest fort in the world made
+// console.log(shrek); // Ogre { name: 'shrek', weapon: 'club', color: 'green' }
+// console.log(shrek.makeFort()); // strongest fort in the world made
+console.log(shrek._attack()); // attack with club
+shrek._attack = false;
+console.log(shrek._attack()); // shrek._attack is not a function
 
 // Ogre is a constructor function
 console.log(Ogre.isPrototypeOf(shrek)); // false
