@@ -1,3 +1,5 @@
+// Arity simply means the number of arguments a function takes
+
 // Composability is a system design principle that deals with the relationship between components.
 // Pipe chains functions left-to-right, passing the result of each as input to the next.
 
