@@ -1,3 +1,9 @@
+// Inheritance
+// What it is
+// Tight Coupling
+// Fragile Base Class Problem
+// Hierarchy
+
 /*
 class Elf {
     constructor(name, weapon) {

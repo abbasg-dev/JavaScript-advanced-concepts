@@ -1,3 +1,8 @@
+// Composition
+// What it has
+
+// It's about smaller pieces that are combined to create something
+
 // Amazon shopping
 const user = {
   name: "Abbas",

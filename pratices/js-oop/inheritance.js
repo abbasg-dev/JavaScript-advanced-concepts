@@ -1,3 +1,10 @@
+// Inheritance is a superclass that is extended to smaller pieces that add or overwrite things
+
+// few operations on common data
+// stateful
+// side effects
+// imperative
+
 /*
 class Elf {
     constructor(name, weapon) {

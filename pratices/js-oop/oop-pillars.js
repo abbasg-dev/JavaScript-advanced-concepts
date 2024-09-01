@@ -1,3 +1,5 @@
+// Organizing the code into unites would be called object oriented programming
+
 // Encapsulation
 // Group related code into classes to restrict access to internal details, making components easier to manage and reuse.
 
@@ -19,3 +21,8 @@
 
 // memory efficient (objects use references instead of cloning and copying)
 // Code dry (one place were creating functionality)
+
+// The pieces of information inside of the object are called attributes or state, and the operations that can happen on this state are known as methods
+
+// OOP says bring both data and behavior in a single location called object or class
+// This is going to allow us to understand our program easier and be more organized
