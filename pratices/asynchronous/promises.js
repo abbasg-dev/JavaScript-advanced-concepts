@@ -2,6 +2,7 @@
 // A promise maybe in one of three possible states, fulfilled (resolved), rejected or pending
 // .catch will catch any error that the promise may have
 // .fetch simply returns a promise
+// .then keep having to chain
 // promise can only succeed or fail once
 // reacting to something that happens asynchronously
 
