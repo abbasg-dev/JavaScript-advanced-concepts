@@ -12,6 +12,7 @@
 
 // JavaScript Engine (e.g., V8):
 // Converts JavaScript code into machine-executable instructions for the browser.
+
 // Composed of:
 // Memory Heap: Where memory allocation occurs, though with limited capacity.
 // Call Stack: Executes code in a First-In, Last-Out (FILO) order; memory leaks can occur if unused memory isn’t managed.
@@ -23,13 +24,13 @@
 
 // Asynchronous Programming:
 // Utilizes callback functions to perform non-blocking tasks.
-// Callbacks run in the background, placed in the Callback Queue.
+// Callbacks run in the background, placed in the Callback Queue (Task Queue).
 // The Event Loop moves callbacks from the queue to the Call Stack when the thread is free.
 
 // JavaScript Runtime Environment:
 // Web APIs: Includes DOM manipulation, AJAX (XMLHttpRequest), and setTimeout.
 // Callback Queue: Holds events like onClick, onLoad, etc., until they can be processed.
-// Event Loop: Monitors the Callback Queue and processes tasks to keep the main thread running smoothly.
+// Event Loop: Monitors the Callback Queue and processes tasks to keep the main thread running smoothly. It's going to check the job queue first, make sure that that's empty before we start putting some of the callback queue functions on to the call stack.
 
 // Synchronous vs. Asynchronous:
 // Synchronous: Similar to calling a teacher and waiting on the line for a response before moving on.
