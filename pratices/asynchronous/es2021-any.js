@@ -15,3 +15,7 @@ const p3 = new Promise((resolve, reject) => {
 
 // Promise.any() resolves if any of the supplied promises is resolved.
 // if none of the promises resolve? In that case Promise.any() throws an error!
+
+// wait for all - abort on first success
+
+// returns a single promise, first promise resolved
