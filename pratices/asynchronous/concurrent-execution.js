@@ -10,7 +10,7 @@
 // Concurrency (Single-Core CPU)
 // Is the ability of a system to handle multiple tasks at the same time by managing the execution of these tasks.
 // The idea is about dealing with lots of things at once.
-// Alternating between tasks.
+// CPU core will make progress on one task, pause it, then it make progress on another task, then pause it then making progress on another task alternating between tasks.
 
 // Parallelism (Multi-Core CPU)
 // Involves the simultaneous of multiple tasks which actually run at the same time or multiple processors or cores.
