@@ -1,8 +1,17 @@
 // Web Worker
-// A JavaScript program running in a separate thread, parallel to the main thread, allowing background tasks without blocking the UI.
+// A javaScript process that runs in the background of a webpage.
+// Separate javaScript thread that allows you to execute multiple thread of javascript in parallel with each other.
+
+// javaScript by default is a single threaded, one thread or execution path (main thread) responsible for executing all the javascript for a webpage one line at a time.
+// Web worker can be created to offload any computationally expensive work so the main thread doesn't get bogged down and can continue executing some other code.
+
+// Web worker cannot perform any DOM manipulation only the main thread can access and manipulate the DOM.
 
 // Concurrency (Single-Core CPU)
-// Single-threaded execution where tasks are interleaved but only one runs at a time, with the browser or Node handling background work.
+// Is the ability of a system to handle multiple tasks at the same time by managing the execution of these tasks.
+// The idea is about dealing with lots of things at once.
+// Alternating between tasks.
 
-// Concurrency + Parallelism (Multi-Core CPU)
-// Multi-core CPUs allow multiple threads to run simultaneously in parallel, each on a separate core.
+// Parallelism (Multi-Core CPU)
+// Involves the simultaneous of multiple tasks which actually run at the same time or multiple processors or cores.
+// Two Computational things are happening at the same time.
