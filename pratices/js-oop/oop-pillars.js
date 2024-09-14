@@ -26,3 +26,5 @@
 
 // OOP says bring both data and behavior in a single location called object or class
 // This is going to allow us to understand our program easier and be more organized
+
+// Object describes an entity.

@@ -85,6 +85,9 @@ console.log(Ogre.prototype.isPrototypeOf(shrek)); // true
 console.log(Character.prototype.isPrototypeOf(Ogre)); // false
 console.log(Character.prototype.isPrototypeOf(Ogre.prototype)); // true
 
+// instanceof operator used to see if an object is of a particular type
+// using instanceof we want to make sure we are working with an object that is of a correct datatype
+
 console.log(dolby instanceof Elf); // true
 console.log(dolby instanceof Ogre); // false
 console.log(dolby instanceof Character); // true

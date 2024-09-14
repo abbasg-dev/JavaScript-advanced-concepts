@@ -1,3 +1,4 @@
+// With polymorphism you can treat numerous different types as if they are on type
 class Character {
   // base class (super class)
   constructor(name, weapon) {
