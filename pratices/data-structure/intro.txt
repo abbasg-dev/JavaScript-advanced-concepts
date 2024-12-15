@@ -1,0 +1,111 @@
+What is a Data Structure?
+A data structure is a collection of values organized in a specific way to store, manage, and retrieve data efficiently.
+
+What is an Algorithm?
+Algorithms are the steps or processes used to manipulate the values in a data structure.
+
+Importance of Data Structures and Algorithms
+These are fundamental, timeless concepts that apply across programming languages and environments (whether in frontend, backend, game development, etc.).
+Mastering them allows you to adapt to changing technologies and tackle a wide range of technical problems.
+
+Value in the Industry
+Companies like Facebook, Amazon, Netflix, Google prioritize questions on data structures and algorithms during interviews because they reveal a developer's problem-solving capabilities, beyond just knowing trendy libraries or syntax.
+
+Long-term Relevance
+Understanding these concepts is critical for long-term success as a developer or engineer, helping you write better code and solve complex issues efficiently.
+
+Foundation of Great Programs
+Knowledge of data structures and algorithms enables you to build robust programs, optimize performance, and make sound decisions.
+
+Takeaway:
+Focusing on learning data structures and algorithms is essential for becoming a versatile, effective developer. They will enable you to excel in coding interviews and tackle real-world challenges confidently.
+
+What is a Data Structure?
+A data structure is a collection of values that can have relationships and can have functions applied to them.
+Each data structure is specialized for certain tasks and scenarios, making it efficient for specific types of operations.
+
+Every Data Structure Has a Purpose:
+Data structures are like containers in real life (e.g., backpacks, drawers, fridges) that are designed for storing specific things.
+Using the wrong data structure for a task can lead to inefficiencies, just like putting yogurt in a drawer will spoil it.
+
+Common Data Structures:
+While there are many data structures, most programming problems can be solved with a few key ones (like arrays, objects, and others).
+Data structures like blockchain are also just specific ways of storing and organizing data.
+
+Real-Life Analogy:
+In life, humans organize and store things to create order out of chaos. Similarly, in programming, we use data structures to organize data to make it accessible and manageable.
+
+Trade-offs in Data Structures:
+Just like code has trade-offs in readability, memory, and speed, so do data structures. Each is better in certain situations and worse in others.
+Understanding the trade-offs helps in choosing the right data structure for the task at hand.
+
+Two Parts to Mastering Data Structures:
+Building data structures: Learning how to create data structures using code.
+Using data structures: The most important part, understanding how and when to use pre-built data structures effectively.
+
+Goal:
+The goal is to learn how to choose the right data structure based on the problem you are solving, optimizing for efficiency and performance based on the scenario.
+
+Takeaway:
+Data structures are essential tools in programming that help you organize and manage data efficiently. The key to becoming a better developer is understanding how to use the right data structure for the right problem, and knowing the trade-offs involved.
+
+How computers store data?
+
+RAM vs. Storage:
+RAM (Random Access Memory): Temporary, fast memory used by programs while running. Data is lost when the computer shuts down.
+Persistent Storage: Permanent, slower storage (e.g., hard drives, SSDs) where files and programs are saved for long-term use.
+
+CPU and Memory Access:
+CPU (Central Processing Unit): Executes tasks and processes data. It interacts with both RAM (faster) and storage (slower).
+Memory Controller: Connects the CPU to RAM, enabling quick access to any memory address (random access).
+Locality of Reference: Programs access memory addresses that are close together for faster performance.
+
+RAM Structure:
+RAM is divided into shelves (addresses), each holding 1 byte (8 bits).
+Bits: Represented as 1s and 0s, they store data in RAM. More bits mean larger data storage capacity.
+Addressing: The CPU can jump to any specific memory address instantly, allowing for fast data retrieval.
+
+Cache:
+CPU Cache: A small, fast memory that stores recently accessed data for quick access. It improves speed when accessing frequently used information.
+LRU Cache: (Least Recently Used) cache is a data structure that removes the least recently accessed items first to efficiently manage limited storage.
+
+Data Structures:
+Arrangement of Data: Data structures determine how data is stored in RAM (either consecutively or spread apart).
+Efficiency: The organization of data structures affects how quickly the CPU can read and write information, influencing program performance.
+
+32-bit vs. 64-bit Systems:
+Bit Systems: Define how much data can be processed or stored. Higher-bit systems (64-bit) allow for storing and processing larger amounts of data compared to lower-bit systems (e.g., 8-bit or 32-bit).
+
+Integer Overflow:
+Systems have limits on how large numbers can be stored. When a number exceeds the limit, it results in overflow (e.g., infinity in JavaScript).
+
+Key Takeaways:
+RAM is fast but temporary, storage is slow but permanent.
+Efficient memory access is crucial for performance (locality of reference, caching).
+Choosing the right data structure is important for optimizing how data is stored and accessed by the CPU.
+
+Data Structures:
+- Arrays
+- Stacks
+- Queues
+- Linked Lists
+- Trees
+- Tries
+- Graph
+- Hash Tables
+
+Algorithms:
+- Sorting
+- Dynamic programming
+- BFS (Breadth First Search) + DFS (Depth First Search) (Searching)
+- Recursion
+
+Most languages have enough data structures and data types focus to build and create our own data structure.
+
+Operations on Data Structure:
+- Insertion: Add a new data item in a given collection of items.
+- Deletion: Deleted data.
+- Traversal: Access each data item exactly once so that it can be processed.
+- Searching: Find out the location of thr data item if it exists in a given collections.
+- Sorting: Having data that is sorted.
+- Access: How do we access this data that we have on our computer.

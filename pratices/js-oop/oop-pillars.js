@@ -3,7 +3,7 @@
 // Encapsulation
 // Group related code into classes to restrict access to internal details, making components easier to manage and reuse.
 
-//Abstraction
+// Abstraction
 // Simplify interfaces by hiding complex logic, exposing only necessary methods and properties to the user.
 
 // Inheritance
