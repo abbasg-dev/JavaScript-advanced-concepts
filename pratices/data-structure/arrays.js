@@ -1,16 +1,6 @@
 // Arrays sometimes called lists, organizes items sequentially one after another in memory. Stored in contiguous memory that is on order.
 // Arrays in javascript are just objects with integer based keys that act like indexes
 
-/*
-Lookup O(1)
-Push O(1)
-Insert O(n)
-Delete O(n)
-append* O(1)
-
-*can be O(n)
-*/
-
 const strings = ["a", "b", "c", "d"];
 //4*4 = 16 bytes of storage
 
@@ -38,7 +28,19 @@ console.log(strings); // ['x', 'a', 'alien', 'b', 'c']
 static
 fixed in size, specify the number of elements the array will hold ahead of time
 
+Lookup O(1)
+Push O(1)
+Insert O(n)
+Delete O(n)
+
 dynamic
 allow us to copy and rebuild an array at a new location
 expands as you add more elements, so you don't need to determine the size ahead of time.
+
+Lookup O(1)
+append* O(1)
+Insert O(n)
+Delete O(n)
+
+*can be O(n)
 */
