@@ -55,4 +55,6 @@ Disadvantages
 - Slow inserts
 - Slow deletes
 - Fixed size*
+
+*if using static array
 */
