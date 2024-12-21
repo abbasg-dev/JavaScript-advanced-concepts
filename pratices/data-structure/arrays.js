@@ -44,3 +44,15 @@ Delete O(n)
 
 *can be O(n)
 */
+
+/*
+Advantages
+- Fast lookups
+- Fast push/pop
+- Ordered
+
+Disadvantages
+- Slow inserts
+- Slow deletes
+- Fixed size*
+*/
