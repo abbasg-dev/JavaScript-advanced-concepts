@@ -28,8 +28,9 @@ console.log(strings); // ['x', 'a', 'alien', 'b', 'c']
 static
 fixed in size, specify the number of elements the array will hold ahead of time
 
+Search O(n)
 Lookup O(1)
-Push O(1)
+Push* O(1)
 Insert O(n)
 Delete O(n)
 
