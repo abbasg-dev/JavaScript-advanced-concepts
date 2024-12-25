@@ -1,4 +1,5 @@
-// A promise is an object that may produce a single value some time in the future, either a resolved value, or a reason that it's not resolved (rejected)
+// A promise is an object that may produce a single value some time in the future,
+// either a resolved value, or a reason that it's not resolved (rejected)
 // A promise maybe in one of three possible states, fulfilled (resolved), rejected or pending
 // .catch will catch any error that the promise may have
 // .fetch simply returns a promise
