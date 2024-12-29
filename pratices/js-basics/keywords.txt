@@ -1,0 +1,35 @@
+Javascript Keywords
+
+break: Exits a loop or switch statement prematurely.
+case: Defines a block of code to execute in a switch statement for a matching condition.
+catch: Handles exceptions thrown in a try block.
+class: Declares a class, a template for creating objects.
+const: Declares a block-scoped constant variable.
+continue: Skips the current iteration of a loop and proceeds to the next one.
+debugger: Pauses execution for debugging, if a debugger is available.
+default: Specifies a default block of code in a switch statement if no cases match.
+delete: Removes a property from an object.
+do: Executes a block of code once, then repeats while a condition is true.
+else: Specifies an alternate block of code to execute if an if condition is false.
+export: Exports modules, functions, or variables for use in other files.
+extends: Specifies that a class inherits from another class.
+finally: Executes a block of code after try and catch, regardless of the outcome.
+for: Defines a loop that repeats a block of code a specific number of times.
+function: Declares a reusable block of code (function).
+if: Executes a block of code if a specified condition evaluates to true.
+import: Imports modules, functions, or variables from other files.
+in: Tests if a specified property exists in an object or array.
+instanceof: Checks if an object is an instance of a specific class or constructor.
+new: Creates a new instance of an object or class.
+return: Exits a function and optionally returns a value.
+super: Calls the constructor or methods of a parent class.
+switch: Evaluates an expression against multiple cases and executes the matching block.
+this: Refers to the current execution context (object or function).
+throw: Throws a custom error or exception.
+try: Defines a block of code to test for errors.
+typeof: Returns the type of a variable or expression.
+var: Declares a variable with function or global scope.
+void: Evaluates an expression without returning a value.
+while: Executes a block of code repeatedly while a condition is true.
+with: Extends the scope chain for a block of code (not recommended for use).
+yield: Pauses and resumes a generator function.
