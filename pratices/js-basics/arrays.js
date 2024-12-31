@@ -12,6 +12,7 @@ console.log(list);
 list.push("elephant");
 console.log(list);
 
+// concat - Concatenates two or more arrays
 const myList = list.concat(["bee", "deer"]);
 console.log(myList);
 
