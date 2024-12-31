@@ -1,5 +1,7 @@
 // includes() It can be used to determine whether an array includes a given element in an elegant way.
 
+console.log("Helloooo".includes("o")); // true
+
 const pets = ["cats", "dog", "bat"];
 
 pets.includes("dog"); // true
