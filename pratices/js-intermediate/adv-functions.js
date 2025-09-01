@@ -42,3 +42,12 @@ var a = 1;
 function b() {
   a = 2;
 }
+
+const curryAdd = (a) => {
+  let total = a;
+  const inner = (b) => (b !== undefined ? ((total += b), inner) : total);
+  return inner;
+};
+
+console.log(curryAdd(10)(20)(30)()); // 60
+console.log(curryAdd(10)(20)(30)(40)(50)(60)()); // 210

@@ -72,6 +72,18 @@ console.log(obj2); // { name: 'XYZ', email: 'abc@test.com', address: { city: 'Mu
 // The spread operator ({...obj}) creates a shallow copy, so obj2.address still references the
 // same nested object as obj.address, causing changes in obj2.address.city to reflect in obj.address.city.
 
+const f = { ab: { cd: { ef: true } } };
+const b = f; // reference copy
+const c = { ...f }; // shallow copy
+console.log(f === b); // true
+console.log(f === c); // false
+f.ab.cd.ef = false;
+console.log(b.ab.cd.ef); // false
+console.log(c.ab.cd.ef); // false
+
+// reference copy: makes a full independent copy of all levels, so changes in f don’t affect c.
+// shallow copy: only copies the first layer. Nested objects are still shared references.
+
 function Sum(x) {
   function innerSum(y) {
     if (y === undefined) {
@@ -183,3 +195,8 @@ const twoSum1 = (nums, target, map = new Map()) =>
 console.log(twoSum1([7, 11, 15, 2], 9)); // [3, 0]
 console.log(twoSum1([3, 2, 4], 6)); // [1, 2]
 console.log(twoSum1([3, 3], 6)); // [0, 1]
+
+function firstRepeat(s) {
+  for (let i = 0; i < s.length; i++) if (s.indexOf(s[i]) !== i) return s[i];
+}
+console.log(firstRepeat("success")); // c

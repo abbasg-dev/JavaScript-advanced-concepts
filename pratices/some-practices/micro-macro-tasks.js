@@ -35,3 +35,18 @@ for (let i = 0; i < 5; i++) {
 }
 */
 // Output: 0, 1, 2, 3, 4
+
+async function chart(v) {
+  console.log("start", v);
+  await console.log("middle", v);
+  console.log("end", v);
+}
+chart("first");
+chart("second");
+
+// start first
+// middle first
+// start second
+// middle second
+// end first
+// end second
