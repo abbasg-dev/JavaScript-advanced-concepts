@@ -38,7 +38,7 @@ for (let i = 0; i < 5; i++) {
 
 async function chart(v) {
   console.log("start", v);
-  await console.log("middle", v);
+  await console.log("middle", v); // logs immediately; next line becomes a microtask.
   console.log("end", v);
 }
 chart("first");
