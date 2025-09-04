@@ -200,3 +200,31 @@ function firstRepeat(s) {
   for (let i = 0; i < s.length; i++) if (s.indexOf(s[i]) !== i) return s[i];
 }
 console.log(firstRepeat("success")); // c
+
+const log = () => console.log("Triggered!");
+
+const debouncedLog = debounce(log, 500);
+
+function debounce(func, delay) {
+  let timeoutId;
+
+  return function (...args) {
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+    timeoutId = setTimeout(() => {
+      func.apply(this, args);
+    }, delay);
+  };
+}
+
+debouncedLog();
+debouncedLog();
+debouncedLog();
+
+// The debouncedLog function executes only once because it resets the timeout each time it's called
+// within the 500ms delay, causing only the last call to trigger the log function after the specified delay.
+
+// Output:
+
+// Triggered!
