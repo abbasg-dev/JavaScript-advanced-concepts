@@ -228,3 +228,9 @@ debouncedLog();
 // Output:
 
 // Triggered!
+
+let d = 0.1;
+let e = 0.2;
+let f = 0.3;
+
+console.log(d + e === f); // false
